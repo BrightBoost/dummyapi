@@ -42,10 +42,10 @@ By default, the server will run on http://localhost:3000. You can change this in
 4. API Endpoints
 The following endpoints are available:
 
-GET /api/users: Fetch all users.
-POST /api/users: Add a new user.
-PUT /api/users/:id: Update an existing user.
-DELETE /api/users/:id: Delete a user.
+- GET /api/users: Fetch all users.
+- POST /api/users: Add a new user.
+- PUT /api/users/:id: Update an existing user.
+- DELETE /api/users/:id: Delete a user.
 
 Data Storage
 User data is stored in the ./data/users.json file, and the current user ID is tracked in ./data/currentId.json.

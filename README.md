@@ -21,7 +21,7 @@ Clone this repository to your local machine:
 git clone https://github.com/BrightBoost/dummyapi.git
 ``` 
 
-2. Install Dependencies
+### 2. Install Dependencies
 Navigate to the project directory and install the required dependencies:
 
 ```bash
@@ -30,7 +30,7 @@ npm install
 ``` 
 This will install Express, CORS, and any other necessary packages.
 
-3. Start the Server
+### 3. Start the Server
 Run the following command to start the server:
 
 ```
@@ -39,7 +39,7 @@ npm start
 
 By default, the server will run on http://localhost:3000. You can change this in the `server.js` file.
 
-4. API Endpoints
+### 4. API Endpoints
 The following endpoints are available:
 
 - GET /api/users: Fetch all users.
